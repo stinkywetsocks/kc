@@ -17,7 +17,7 @@ function cors() {
       document.getElementById("demo").innerHTML = alert(this.responseText);
     }
   };
-  xhttp.open("POST", "https://us-east1-aws.api.snapchat.com/web-stories-api/graphql", true);
+  xhttp.open("GET", "https://us-east1-aws.api.snapchat.com/gravy-gateway/graphql", true);
   xhttp.withCredentials = true;
   xhttp.send();
 }
